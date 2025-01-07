@@ -1,0 +1,26 @@
+.delivery {
+  background: #fff;
+  color: #ffb03b;
+  border: 5px solid #ffb03b;
+}
+
+.delivery:hover {
+  border: 5px solid #fff;
+}
+
+/* Border Shine */
+.circle {
+  left:50%;
+  top:50%;
+  border-radius:50px;
+  box-shadow: 0px 0px 0px 0px rgba(255,255,255,1);
+  animation: shadow-glow 2s linear infinite;
+}
+@keyframes shadow-glow {
+  from {
+    box-shadow: 0px 0px 0px 0px rgba(255,255,255,1);
+  }
+  to {
+    box-shadow: 0px 0px 0px 10px rgba(255,255,255,0);
+  }
+}
